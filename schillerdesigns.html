@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Schiller Designs</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="schillerdesigns.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"> 
+                    
+                    <span class="sr-only">Toggle navigation</span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                </button> 
+                <a class="navbar-brand" href="index.html">Schiller Designs</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about me">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="scrollerBox" data-spy="scroll" data-target="#navbar-collapse"> </div>
+    </nav>
+    <div id="home" class="cover">
+        <div class="cover-text">
+            <h1>Schiller Designs</h1>
+            <p class="lead">In need of a sleek modernistic image for your business, organization, or even yourself? Look no further.</p> <a href="#why-us" role="button" class="btn btn-danger btn-lg">Let's get started</a> </div>
+    </div>
+    <section class="testimonial">
+        <div class="container">
+            <blockquote> &ldquo; My goal as a web designer is not to just simply create websites for others but rather create a unique experience that feels as remarkable to my clients as it does to me when creating them. &rdquo; <cite>&mdash; Frank Schiller</cite> </blockquote>
+        </div>
+    </section>
+    <section id="why-us">
+        <h2 id="services">Why Schiller Designs?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h3>Forward Practices</h3>
+                    <p>I have experience working with a handful of design programs such as Bootstrap, WordPress, Photoshop, and Illustrator. To captialize on my experience with design programs I am versed in the coding languges HTML5, CSS3, Javascript, jQuery, Bootstrap, PHP, and MySQL. </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Diligence</h3>
+                    <p>Throughout the entire process the client is always put first, kept in the loop, and always has a say in the direction they want their personal website to move towards. No stone is left unturned. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <h2 id="about me">About Me</h2>
+            <div class="row">
+                <div class="col-sm-4"> <img src="img/Selfie.jpg" alt="My face" class="img" height="168px" width="205px" id="frankie"> </div>
+                <div class="col-sm-4">
+                    <p id="bio">
+                        <br>My name is Frank Schiller. I'm currently a senior Web Design major at the University of Central Florida. I enjoy Pok&eacute;mon, building websites, and making music <i class="fa fa-smile-o" aria-hidden="true"> </i></p>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </section>
+    <section id="signup">
+        <div class="container">
+            <h2 id="contact">Get in contact with me</h2>
+            <p class="lead">For inquires, questions, or simply to say hi!</p>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <p id="contact email"><b>Email:</b> frankschillerdesigns@gmail.com </p>
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer> <i class="fa fa-fire" aria-hidden="true"></i> </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/856a0730fd.js"></script>
+    <script type=text/javascript>
+        $(document).ready(function () {
+            var selector = 'li';
+            $(selector).on('click', function () {
+                $(selector).removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
