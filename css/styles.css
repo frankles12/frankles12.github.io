@@ -1,0 +1,685 @@
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('/css/droidsans_regular_macroman/DroidSans-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('/css/philosopher_regular_macroman/Philosopher-Regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('/css/aaargh_normal_macroman/Aaargh-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: "Droid Sans";
+    background-color: #FFEFEE;
+
+
+}
+
+
+#nav_bar  {
+    width: 100%;
+    height: 100%;
+    background-color: #FFEFEE;
+    opacity: 0.8;
+    padding-top: 1em;
+
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#nav_bar h2{
+    text-align: center;
+    padding-left: 0.3em;
+    font-family: 'Philosopher';
+    font-weight: 200;
+    font-size: 5em;
+
+    margin: 0;
+}
+
+#nav_bar li {
+    display: inline-block;
+
+    text-decoration: none;
+
+}
+
+#nav_bar ul {
+    text-align: center;
+    padding-right: 0.8em;
+
+}
+@media  screen and (max-width: 845px) {
+    #nav_bar li {
+        text-align: left;
+
+
+    }
+}
+
+#nav_bar ul li a:link {
+    text-decoration: none;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+@media  screen and (max-width: 845px) {
+    #nav_bar ul li a:link {
+        border-style: none;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+#nav_bar ul li a:hover {
+    background-color: #637194;
+}
+
+#nav_bar ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-color: #FFAB62;
+    opacity: 0.8;
+}
+
+.hero img {
+    position: relative;
+    max-width: 100%;
+    height:auto;
+    border-top: 2px outset #C0A7A0;
+
+}
+
+.hero h1 {
+    position: absolute;
+    top: 4em;
+    text-align: center;
+    width: 100%;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 5em;
+    color: #FFEFEE;
+}
+
+.hero h4 {
+    position: absolute;
+    top: 21.5em;
+    text-align: center;
+    width: 100%;
+    font-size:1.3em;
+    font-weight: 600;
+    right: 0.5em;
+    color: #FFEFEE;
+}
+
+#skill_head h3 {
+    text-align: center;
+    font-size: 3.5em;
+    width: 100%;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+}
+
+.experience {
+    background-color: #637194;
+    opacity: 0.9;
+}
+
+.hero_bio {
+    background-color: #637194;
+    opacity: 0.8;
+
+}
+
+.hero_bio img {
+    position: relative;
+    max-width: 100%;
+    height:auto;
+    border-top: 2px outset #C0A7A0;
+
+}
+
+.hero_bio h1 {
+    position: absolute;
+    top: 4em;
+    text-align: center;
+    width: 100%;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 5em;
+    color: #FFEFEE;
+}
+
+
+
+.hero_bio h4 {
+    position: absolute;
+    top: 21.5em;
+    text-align: center;
+    width: 100%;
+    font-size:1.3em;
+    font-weight: 600;
+    right: 0.5em;
+    color: #FFEFEE;
+}
+
+
+#box1_r1 {
+    background-color: #FFAB62;
+    text-align:center;
+    padding: 0.05em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid #FFAB62;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+
+}
+
+#box1_r1 h4 {
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#box2_r1 {
+    background-color: #FFAB62;
+    text-align:center;
+    padding: 0.05em;
+    padding-bottom: 8.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid #FFAB62;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#box2_r1 h4 {
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#box_r2 {
+    background-color: #637194;
+    text-align:center;
+    padding: 0.05em;
+    padding-bottom: 9em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid #637194;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#box_r2 h4 {
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#bio {
+
+    width: 100%;
+    height: 35em;
+    background-color: #FFAB62;
+    border: 2px solid #FFAB62;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -10px 10px 22px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#bio h3 {
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size:3em;
+
+    text-align: center;
+    padding-left: 2.7em;
+}
+
+#bio p {
+    text-align: left;
+    padding: 2em;
+    padding-top: 1em;
+
+
+
+
+
+}
+
+
+
+#bio img {
+    padding: 2em;
+    padding-top: 1em;
+    top: 2em;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+@media  screen and (max-width: 700px) {
+    #bio img {
+        float: none;
+        align-content: center;
+        padding-left: 0em;
+        padding-bottom: 3em;
+    }
+
+    #bio h3 {
+
+        text-align: left;
+    }
+
+    #box1_r1 {
+        margin-bottom: 2em;
+    }
+
+    #box2_r1 {
+        margin-bottom: 2em;
+    }
+
+    .copyright {
+        padding-top: 18em;
+    }
+
+    .hero_bio h1 {
+        top: 2.5em;
+    }
+
+    #blog_middle_box {
+        padding: 0.05em;
+        padding-bottom: 0;
+        padding-left: 2em;
+        padding-right: 0;
+        margin-bottom: 2em;
+        margin-left: 0;
+        margin-right: 2em;
+    }
+
+    .hero h1 {
+        top: 3em;
+    }
+
+    #top_box {
+        margin-bottom: 2em;
+    }
+
+    #middle_box {
+        margin-bottom: 2em;
+    }
+}
+
+#work_head {
+    text-align: center;
+    font-size: 2em;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+
+
+}
+
+
+
+
+
+.headings {
+    background-color: #FFAB62;
+    opacity: 0.8;
+}
+
+.headings h2 {
+    text-align: center;
+    font-size: 4em;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+
+}
+#top_box {
+    background-color: #637194;
+    text-align:center;
+    padding: 0.05em;
+    border: 2px solid #637194;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+
+
+}
+
+#top_box p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#middle_box {
+    background-color: #FFAB62;
+    text-align:center;
+    padding: 0.05em;
+    border: 2px solid #FFAB62;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+}
+
+#middle_box p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#bottom_box {
+    background-color: #637194;
+    text-align:center;
+    padding: 0.05em;
+    border: 2px solid #637194;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+
+}
+
+#bottom_box p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+
+
+#content_bground {
+    background-color: #FFEFEE;
+
+
+
+
+}
+
+.contact_foot {
+    text-align: center;
+    background-color: #637194;
+    width: 35%;
+    font-size: 0.8em;
+    padding: 0.05em;
+    border: 2px solid #637194;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+
+
+}
+
+#contact_foot_work {
+    text-align: center;
+    background-color: #FFAB62;
+    width: 35%;
+    font-size: 0.8em;
+    padding: 0.05em;
+    border: 2px solid #FFAB62;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    box-shadow: -5px 5px 5px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#contact_foot_work a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#contact_foot_work a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media  screen and (max-width: 845px) {
+    .contact_foot {
+        display: none;
+    }
+}
+.contact_foot a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact_foot a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.contact_foot:hover {
+    box-shadow: 0 2px 2px grey;
+
+}
+
+
+
+#brief_para {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+
+}
+
+#blog_top_box {
+    background-color: #FFAB62;
+    text-align:left;
+    padding: 0.05em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.64em;
+    margin-top: 2em;
+    border: 2px solid #FFAB62;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+}
+
+#blog_top_box h2 {
+    font-family: Philosopher, Helvetica;
+}
+
+#blog_middle_box{
+    background-color: #637194;
+    text-align:left;
+    padding: 0.05em;
+    padding-bottom: 4em;
+    padding-left: 2.5em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 3.59375em;
+    border: 2px solid #637194;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+
+}
+
+#blog_middle_box h2 {
+    font-family: Philosopher, Helvetica;
+
+}
+
+#blog_bottom_box {
+    background-color: #FFAB62;
+    text-align:left;
+    padding: 0.05em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid #FFAB62;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -15px 15px 23px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+}
+
+#blog_bottom_box h2 {
+    font-family: Philosopher, Helvetica;
+}
+
+#contact_web {
+    background-color: #637194;
+    text-align: center;
+    padding: 2.61em;
+    border: 2px solid #637194;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 15px 23px grey;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+
+
+}
+
+#web_para {
+    background-color: #637194;
+    padding: 1em;
+    border: 2px solid #637194;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 15px 23px grey;
+    border-left: 4px inset #4D68AB;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+}
+
+#graphic_para {
+    background-color: #FFAB62;
+    padding: 1em;
+    border: 2px solid #FFAB62;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 15px 23px grey;
+    border-right: 8px ridge #FFAB62;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+#contact_graphic {
+    background-color: #FFAB62;
+    text-align:center;
+    padding: 1.85em;
+    border: 2px solid #FFAB62;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 15px 23px grey;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+}
+
+
+.headings_thoughts {
+    background-color: #637194;
+    opacity: 1;
+}
+
+#contact_table th {
+    padding: 0.5em;
+}
+#contact_table td {
+    padding-right: 0.5em;
+}
+
+#contact_table table {
+
+
+    display: table;
+    width: 100%;
+    height: auto;
+    background-color: #FFAB62;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 5px 3px grey;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+}
+
+
+
+#contact_collab {
+    background-color: #637194;
+    text-align:center;
+    padding: 1.15em;
+    border: 2px solid #637194;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 15px 23px grey;
+    font-family: Philosopher, "Helvetica Neue", Helvetica;
+    font-size: 1.5em;
+
+}
+
+
+#collab_para {
+    background-color: #637194;
+    padding: 1em;
+    border: 2px solid #637194;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 15px 23px grey;
+    border-left: 4px inset #4D68AB;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica;
+
+}
+
+#contact_table {
+    border: 2px solid #FFAB62;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 5px 13px grey;
+
+
+
+}
+
+.contact_move {
+    padding-right: 1.9em;
+}
+
+.copyright {
+    text-align: center;
+    font-family: aaarghnormal, "Helvetica Neue", Helvetica;
+    font-size: 0.5em;
+}
