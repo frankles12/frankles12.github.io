@@ -394,6 +394,11 @@ body {
     font-family: Philosopher, "Helvetica Neue", Helvetica;
 }
 
+#middle_box img {
+    width: 50%;
+    height: 50%;
+}
+
 #middle_box p {
     padding-left: 0.5em;
     padding-right: 0.5em;
