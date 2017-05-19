@@ -284,7 +284,7 @@ body {
     top: 2em;
     float: left;
     max-width: 100%;
-    height: auto;
+    height: 65%;
 }
 
 @media  screen and (max-width: 700px) {
@@ -293,6 +293,7 @@ body {
         align-content: center;
         padding-left: 0em;
         padding-bottom: 3em;
+        height: 50%;
     }
 
     #bio h3 {
