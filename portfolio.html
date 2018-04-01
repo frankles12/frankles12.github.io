@@ -1,328 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Pure Include -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
-          integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
-    <!--<![endif]-->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="./hover.css">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-    <title>Portfolio > Portfolio – Frank Schiller</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio</title>
 </head>
 <body>
+<!-- Zoom Hero -->
+<header class="zoom">
+    <img src="./images/portfolioImg.jpeg">
+    <h1 class="portfolio-header hvr-bounce-out">My Works</h1>
+    <div class="home-button hvr-buzz-out">
+        <a href="index.html">Home</a>
+    </div>
+</header>
 
-<!-- Nav Bar -->
-<div class = "pure-g">
-    <div class = "pure-u-1 pure-u-lg-1-1">
-        <div class id = "nav_bar">
-            <h2>Schiller Designs</h2>
-            <ul>
-                <li><a href ="index.html">Bio</a></li><li><a href ="portfolio.html">Portfolio</a></li><li><a href ="blog.html">Thoughts</a></li><li><a href ="contact.html">Contact</a></li>
+<main role="main">
+
+    <div class="content">
+        <!--Project Cards-->
+        <div class="blog-card hvr-bob">
+            <div class="photo photo1"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="https://github.com/frankles12/Overwatch_Informational_Site">Github</a></li>
+                    </ul>
+                </li>
             </ul>
+            <div class="description project-titles">
+                <h1>Overwatch Informational Site</h1>
+                <h2>A dynamic website built with jQuery & React.
+                </h2>
+                <p class="summary">the purpose of providing information about characters from Blizzard's video game
+                    Overwatch. Jquery was utilized strictly on the first page for dynamically rendering html and
+                    creating custom animations when clicking a button. The second page strictly uses React in order
+                    to update the pages state depending on the role the user selected by reading the windows
+                    localStorage object. </p>
+                <a href="https://github.com/frankles12/Overwatch_Informational_Site">Read More</a>
+            </div>
         </div>
-    </div>
-</div>
-
-
-
-<!-- Hero Image -->
-<div class= "pure-g">
-    <div class ="pure-u-1 pure-u-lg-1-1">
-        <div class = "hero">
-            <img src="images/cotton_candy.jpg" alt="banner_image">
-            <h1><strong>My Works</strong></h1>
+        <div class="blog-card alt hvr-bob">
+            <div class="photo photo2"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="https://github.com/frankles12/React-GitBattle">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="description project-titles">
+                <h1>Github Battle App</h1>
+                <h2>Popular repo filtering & user comparison</h2>
+                <p class="summary">This application features the ability to view all of the most popular repositories
+                    on Github and provides the ability to sort the most popular repos by specific programming
+                    languages. Another feature is the ability to enter two users Github profiles
+                    to determine who is the winner based upon data pull from the Github API. I built this application
+                    utiling React and JavaScript methods such as prop types, pure functions, .map/.filter, stateless
+                    functional components, AJAX, .reduce, AXIOS, React Router, and props.children.</p>
+                <a href="https://github.com/frankles12/React-GitBattle">Read More</a>
+            </div>
         </div>
-    </div>
-</div>
-
-
-<!-- Intro heading  -->
-<div class = "pure-g headings">
-    <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-        <span></span>
-    </div>
-    <div class="pure-u-1 pure-u-md-1-8 pure-u-lg-1-8">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-        <div id = "work_head">
-
-            <h1> Take a peek</h1>
+        <div class="blog-card hvr-bob">
+            <div class="photo photo3"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="https://github.com/frankles12/React_VideoPlayer">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="description project-titles">
+                <h1>React Video Player</h1>
+                <h2>Tapping into the YouTube API</h2>
+                <p class="summary">The purpose of this project was to exercise my working knowledge with React in
+                    order to build a video player utilizing the Youtube API. My approach was to analyze Youtube and
+                    break down sections of it's video player like the video, related videos, and description into
+                    components Some of the practices I applied in this
+                    project are JSX, ES6 import statements, component instances, component classes, export
+                    statements, user events, and state.</p>
+                <a href="https://github.com/frankles12/React_VideoPlayer">Read More</a>
+            </div>
         </div>
-    </div>
-</div>
-<br />
-<br />
-
-
-<!-- Works -->
-<div class="pure-u-1 pure-u-md-3-8 pure-u-lg-3-8">
-    <span></span>
-</div>
-<div class="pure-u-1 pure-u-md-1-24 pure-u-lg-1-24">
-    <span></span>
-</div>
-<div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-    <div class = "content_bground">
-        <div id = "middle_box">
-            <h2><strong>OWatch Stats</strong></h2>
-            <p>A dynamic website built with jQuery and React for the purpose of providing information about
-                characters from Blizzard's video game Overwatch. Jquery was utilized strictly on the first page for
-                dynamically rendering html and creating custom animations when clicking a button. The second page
-                strictly uses React in order to update the pages state depending on the role the user selected by
-                reading the windows localStorage object.
-                <a href="https://github.com/frankles12/Overwatch_Informational_Site">Github</a>
-            </p>
+        <div class="blog-card alt hvr-bob">
+            <div class="photo photo4"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="https://github.com/frankles12/Monster-Slayin">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="description project-titles">
+                <h1>Vue JS Platformer Game</h1>
+                <h2>A turn based, retro platformer</h2>
+                <p class="summary">
+                    The player has four abilities, attack, special
+                    attack, heal, or give up.
+                    Each ability has their own function which manipulates the data properties in order to calculate
+                    damage done. I created a stats section that logs what round the player is currently on as well as
+                    how much damage both the monster and player incurred during the round utilizing unshift() & style
+                    bindings.</p>
+                <a href="https://github.com/frankles12/Monster-Slayin">Read More</a>
+            </div>
         </div>
-    </div>
-
-</div>
-<div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-    <span></span>
-</div>
-<div class="pure-u-1 pure-u-md-1-6 pure-u-lg-1-6">
-    <span></span>
-</div>
-<div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-    <div class = "content_bground">
-        <div id = "top_box">
-            <h2><strong>React Github Battle App</strong></h2>
-            <p>This application features the ability to view all of the most popular repositories on Github and
-                provides the ability to sort the most popular repos by specific programming languages. The main
-                feature of the application is the ability to enter two users Github profiles to determine who is the
-                winner based upon data pull from the Github API. I built this application utiling React and
-                JavaScript methods such as prop types, pure functions, .map/.filter, stateless functional components,
-                AJAX, .reduce, AXIOS, React Router, and props.children.<br/>
-                <a href="https://github-battle-7e756.firebaseapp.com/">Direct Link</a>
-                <br/>
-                <a href="https://github.com/frankles12/React-GitBattle">Github</a>
-
-
-            </p>
-        </div>
-    </div>
-
-</div>
-<div class="pure-u-1 pure-u-md-12-24 pure-u-lg-12-24">
-    <span></span>
-</div>
-
-<!-- Craft Bar Website -->
-<div class="pure-u-1 pure-u-md-3-8 pure-u-lg-3-8">
-    <span></span>
-</div>
-<div class="pure-u-1 pure-u-md-1-24 pure-u-lg-1-24">
-    <span></span>
-</div>
-<div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-    <div class = "content_bground">
-        <div id = "middle_box">
-            <h2><strong>React Video Player</strong></h2>
-            <p>The purpose of <a href="https://github.com/frankles12/React_VideoPlayer">this</a> project was to
-                exercise my working knowledge with React in order to build a
-                video player utilizing the Youtube API. Some of the practices I applied in this project are JSX,
-                ES6 import statements, component instances, component classes, export statements, user events, and state.</p>
-        </div>
-    </div>
-
-</div>
-<div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-    <span></span>
-</div>
-
-<!-- One box -->
-<div id = "content_bground">
-<div class = "pure-g">
-    <div class="pure-u-1 pure-u-md-1-6 pure-u-lg-1-6">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <div class = "content_bground">
-            <div id = "top_box">
-                <h2><strong>VueJS Game</strong></h2>
-                <p>Utilizing practices like two-way data binding, style-binding, v-for, v-if, etc. I built a browser
-                    based <a href="https://github.com/frankles12/Monster-Slayin">game </a>in the JavaScript
-                    framework VueJS. The game is turned based, reminiscent of Pokemon.
-                    The player has four abilities, attack, special attack, heal, or give up. Each ability has their
-                    own function which manipulates the data properties in order to calculate damage done. I created
-                    a stats section that logs what round the player is currently on as well as how much damage both
-                    the monster and player incurred during the round utilizing unshift() and some style bindings.
-
+        <div class="blog-card hvr-bob">
+            <div class="photo photo7"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="https://github.com/frankles12/Video-Game-Review-CMS">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="description project-titles">
+                <h1>Dynamic Forum</h1>
+                <h2>Ajax, PHP, and Data-Visualization</h2>
+                <p class="summary">Utilizing jQuery's AJAX API and PHP I created a simple forum for the video game
+                    community League of Legends. In this forum users can post and delete information on characters
+                    from the game. These posts are done through AJAX requests to an external database utilizing PHP
+                    and MySQL. Further functionality includes sorting data by name, recently posted, or by the most
+                    popular subject. Data visualization was created utilizing chart.js to dynamically pull in current
+                    and updated data from the database in real-time to display what characters are currently present
+                    in the data set.
                 </p>
+                <a href="https://github.com/frankles12/Video-Game-Review-CMS">Read More</a>
+            </div>
+        </div>
+        <div class="blog-card alt hvr-bob">
+            <div class="photo photo5"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="https://github.com/frankles12/Video-Game-Review-CMS">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="description project-titles">
+                <h1>Custom CMS</h1>
+                <h2>Practice tying back-end to front-end</h2>
+                <p class="summary">The system uses PHP MySQLi search, input, and delete queries. Supports user and
+                    admin accounts. When a
+                    user is logged in they are displayed a page that’s unique to that specific user utilizing
+                    multiple search queries to determine which user is which. They then have the ability to insert
+                    new game reviews by entering the title, review, and rating of the game. Once submitted, the game
+                    review is inserted into the MySQL database and displayed to the page through use of insert and
+                    search queries. The admin account can do everything a normal user can, as well as, being able to
+                    delete other users reviews utilizing delete queries.</p>
+                <a href="https://github.com/frankles12/Video-Game-Review-CMS">Read More</a>
+            </div>
+        </div>
+        <div class="blog-card hvr-bob">
+            <div class="photo photo6"></div>
+            <ul class="details">
+                <li class="author"><a href="#">Frank Schiller</a></li>
+                <li class="tags">
+                    <ul>
+                        <li><a href="http://thecraftbar.org/">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="description project-titles">
+                <h1>The Craft Bar</h1>
+                <h2>Designing a clients dream</h2>
+                <p class="summary">The Craft Bar is a crafting workshop and boutique located in downtown Sarasota,
+                    Florida. I developed the website in Wordpress so that upon completion of the site Yvonne and
+                    Wendy would be able to manage and add small changes without any further assistant required from a
+                    web designer. The site features a slideshow showcasing images of the store, information about
+                    what The Craft Bar is, Yvonne and Wendy's background information, featured upcoming workshops,
+                    and an events page where people can sign up and pay for upcoming workshops.</p>
+                <a href="http://thecraftbar.org/">Read More</a>
             </div>
         </div>
 
-    </div>
-    <div class="pure-u-1 pure-u-md-12-24 pure-u-lg-12-24">
-        <span></span>
-    </div>
-
-<!-- Another box -->
-    <div class="pure-u-1 pure-u-md-3-8 pure-u-lg-3-8">
-        <span></span>
-    </div>
-    <div class="pure-u-1 pure-u-md-1-24 pure-u-lg-1-24">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <div class = "content_bground">
-            <div id = "middle_box">
-                <h2><strong>Reviews Content Managment System</strong></h2>
-                <p>I developed a <a href="https://github.com/frankles12/Video-Game-Review-CMS">content management
-                    system</a> with PHP and MySQL. The content
-                    management system was built for the purpose of creating video game reviews. The system uses
-                    search, input, and delete queries written in the PHP MySQLi extension format. The system manages
-                    multiple user accounts as well as an admin account. When a user is logged in they are displayed a
-                    page that’s unique to that specific user utilizing multiple search queries to determine which
-                    user is which. They then have the ability to insert new game reviews by entering the title,
-                    review, and rating of the game. Once submitted, the game review is inserted into the MySQL
-                    database and displayed to the page through use of insert and search queries. The admin account
-                    has the ability to do everything a normal user does with the added bonus of being able to delete
-                    other users reviews utilizing delete queries within PHP.
-                </p>
-            </div>
-        </div>
 
     </div>
-    <div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <span></span>
-    </div>
 
-<!-- Modeling for Realtime Systems -->
-    <div class="pure-u-1 pure-u-md-1-6 pure-u-lg-1-6">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <div class = "content_bground">
-            <div id = "bottom_box">
-                <h2><strong>The Craft Bar Website</strong></h2>
-                <p>The Craft Bar is a crafting workshop and boutique located in downtown Sarasota, Florida. The store
-                    hosts a variety of crafting workshops for people of all ages but also sells products from local
-                    artisians in the Sarasota area. The owners of the store Yvonne and Wendy had a dream to create a
-                    store that felt magical, unique, friendly, and
-                    most importantly fun. My goal when designing their site was to portray that vision as much as
-                    possible. I developed the website in Wordpress so that upon completion of the site Yvonne and Wendy
-                    would be able to manage and add small changes without any further assistant required from a web
-                    designer. The site features a slideshow
-                    showcasing images of the store, information about what The Craft Bar is, Yvonne and Wendy's
-                    background information, featured upcoming workshops, and an events page where people can sign up and
-                    pay for upcoming workshops. You can take a look at the final product <a
-                            href="http://thecraftbar.org/">here
-                    </a>.
-                </p>
-            </div>
-        </div>
-
-    </div>
-    <div class="pure-u-1 pure-u-md-12-24 pure-u-lg-12-24">
-        <span></span>
-    </div>
-
-<!-- Craft Bar Logo -->
-    <div class="pure-u-1 pure-u-md-3-8 pure-u-lg-3-8">
-        <span></span>
-    </div>
-    <div class="pure-u-1 pure-u-md-1-24 pure-u-lg-1-24">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <div class = "content_bground">
-            <div id = "middle_box">
-                <h2><strong>J-Query Tip Calculator</strong></h2>
-                <p>Using HTML5 and CSS3, I created and styled a tip calculator <a
-                        href="https://github.com/frankles12/Tip_Calculator">application</a> that users can use to
-                    determine how much money they should tip their food server. Using jQuery I created the algorithm
-                    for determining the tip amount based on the quality of service, total bill amount, and even if
-                    splitting the bill multiple ways.
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-    <div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <span></span>
-    </div>
-
-    <!-- Reviews CMS -->
-    <div class="pure-u-1 pure-u-md-1-6 pure-u-lg-1-6">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <div class = "content_bground">
-            <div id = "bottom_box">
-                <h2><strong>(Old) Schiller Designs</strong></h2>
-                <p>Schiller Designs just recently got a face lift with a new direction, as you are currently viewing.
-                    Originally I designed Schiller Designs using Twitter Boostrap as a framework. With the revamp of
-                    Schiller Designs I switched to the Pure CSS grid system in order to fulfill a more artistic vision
-                    with less limitations. You can check out the
-                    old website <a href="https://github.com/frankles12/frank_schiller_designs">here</a>.
-                </p>
-
-            </div>
-        </div>
-
-    </div>
-    <div class="pure-u-1 pure-u-md-12-24 pure-u-lg-12-24">
-        <span></span>
-    </div>
-
-    <!-- Website for Startup -->
-    <div class="pure-u-1 pure-u-md-3-8 pure-u-lg-3-8">
-        <span></span>
-    </div>
-    <div class="pure-u-1 pure-u-md-1-24 pure-u-lg-1-24">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <div class = "content_bground">
-            <div id = "middle_box">
-                <h2><strong>Modeling for Realtime Systems</strong></h2>
-                <p>I developed <a href="https://sketchfab.com/frankles">3D models</a> of an axe, treasure chest,
-                    goblet, and wishing well for use on a graphical engine like Unity or Unreal. These were
-                    modeled using Autodesk Maya to create the base models as well as creating the UV maps to be used
-                    later for texturing. The completed models with
-                    their respective UV maps were then exported into Substance painter for texturing. I
-                    completed this for a school project where the goal was to have finished models that could
-                    be later used in video game production.</p>
-
-            </div>
-        </div>
-
-    </div>
-    <div class="pure-u-1 pure-u-md-1-4 pure-u-lg-1-4">
-        <span></span>
-    </div>
+</main>
 
 
-
-
-
-</div>
-
-    <!-- Footer -->
-    <div class ="pure-u-1 pure-u-md-10-24 pure-u-lg-10-24">
-        <span></span>
-    </div>
-    <div class = "pure-u-1 pure-u-md-3-8 pure-u-lg-3-8">
-        <div id = "contact_foot_work">
-            <h1><a href="contact.html">Get in Touch!</a></h1>
-        </div>
-    </div>
-
-    <br />
-    <br />
-
-
-
-</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="parallaxHero.js"></script>
 </body>
 </html>
