@@ -166,7 +166,7 @@ body {background: #f1f1f1; margin: 2rem}
     position: relative;
 
     &.photo1 {
-      @include bgImg("./images/OWatch.gif");
+      @include bgImg("./images/owatchopt.gif");
     }
 
     &.photo2 {
@@ -174,15 +174,15 @@ body {background: #f1f1f1; margin: 2rem}
     }
 
     &.photo3 {
-      @include bgImg("./images/VideoPlayer.gif");
+      @include bgImg("./images/videoplayeropt.gif");
     }
 
     &.photo4 {
-      @include bgImg("./images/VueGame.gif");
+      @include bgImg("./images/gameopt.gif");
     }
 
     &.photo5 {
-      @include bgImg("./images/cms.gif");
+      @include bgImg("./images/cmsopt.gif");
     }
 
     &.photo6 {
@@ -190,6 +190,12 @@ body {background: #f1f1f1; margin: 2rem}
     }
     &.photo7 {
       @include bgImg("./images/champRantsOpt.gif");
+    }
+    &.photo8 {
+      @include bgImg("./images/wpAPIopt.gif");
+    }
+    &.photo9 {
+      @include bgImg("./images/RobMar_opt.gif");
     }
   }
 

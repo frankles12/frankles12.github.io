@@ -124,25 +124,31 @@ body {
     height: 200px;
     position: relative; }
     .blog-card .photo.photo1 {
-      background: url("./images/OWatch.gif") center no-repeat;
+      background: url("./images/owatchopt.gif") center no-repeat;
       background-size: cover; }
     .blog-card .photo.photo2 {
       background: url("./images/GitBattle.gif") center no-repeat;
       background-size: cover; }
     .blog-card .photo.photo3 {
-      background: url("./images/VideoPlayer.gif") center no-repeat;
+      background: url("./images/videoplayeropt.gif") center no-repeat;
       background-size: cover; }
     .blog-card .photo.photo4 {
-      background: url("./images/VueGame.gif") center no-repeat;
+      background: url("./images/gameopt.gif") center no-repeat;
       background-size: cover; }
     .blog-card .photo.photo5 {
-      background: url("./images/cms.gif") center no-repeat;
+      background: url("./images/cmsopt.gif") center no-repeat;
       background-size: cover; }
     .blog-card .photo.photo6 {
       background: url("./images/craftBar.gif") center no-repeat;
       background-size: cover; }
     .blog-card .photo.photo7 {
       background: url("./images/champRantsOpt.gif") center no-repeat;
+      background-size: cover; }
+    .blog-card .photo.photo8 {
+      background: url("./images/wpAPIopt.gif") center no-repeat;
+      background-size: cover; }
+    .blog-card .photo.photo9 {
+      background: url("./images/RobMar_opt.gif") center no-repeat;
       background-size: cover; }
   .blog-card .details {
     transition: all 0.3s ease;
