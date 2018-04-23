@@ -39,6 +39,8 @@ $(document).ready(function() {
         }
     });
 
+    
+
     $(document).on("keydown", function(e) {
         if (scrolling) return;
         if (e.which === 38) {
