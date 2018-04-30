@@ -150,6 +150,9 @@ body {
     .blog-card .photo.photo9 {
       background: url("./images/RobMar_opt.gif") center no-repeat;
       background-size: cover; }
+    .blog-card .photo.photo10 {
+      background: url("./images/clust.gif") center no-repeat;
+      background-size: cover; }
   .blog-card .details {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
